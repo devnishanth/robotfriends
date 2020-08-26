@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import "tachyons";
-import { robots } from './robots';
-import Cardsarray from './Cardsarray';
+import App from './app'
 
 ReactDOM.render(
-	<Cardsarray robots ={robots}/>,
+	<App/>,
   document.getElementById('root')
 );
 
